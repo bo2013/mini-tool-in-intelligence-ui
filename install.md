@@ -1,11 +1,16 @@
 # Simple install rule
 
 # 1. Interface
---output: Specifies the output (Intelligence UI, JS .zip source, ...) default is Intelligence UI
+--output: The output type (Intelligence UI, JS .zip source, ...). Default: Intelligence UI
 
---help: Show this interface as help and exit
+--help: Show this help and exit
 
---fix: fix this source code (github.com/bo2013/mini-tool-in-intelligence-ui) using AI
+--fix: Fix the source code (github.com/bo2013/mini-tool-in-intelligence-ui) using AI
 
 # 2. Loads
-https://raw.githubusercontent.com/bo2013/mini-tool-in-intelligence-ui/main/Rules.md
+Load the specification files from the latest source before generating or fixing:
+
+- https://raw.githubusercontent.com/bo2013/mini-tool-in-intelligence-ui/main/Rules.md
+- https://raw.githubusercontent.com/bo2013/mini-tool-in-intelligence-ui/main/Tools.md
+- https://raw.githubusercontent.com/bo2013/mini-tool-in-intelligence-ui/main/Style.md
+- https://raw.githubusercontent.com/bo2013/mini-tool-in-intelligence-ui/main/data.yml

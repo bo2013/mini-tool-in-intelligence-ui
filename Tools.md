@@ -4,9 +4,7 @@
 
 ### 1.1 Header
 
-- Display the application name from `DATA.name`.
-- Display the application version from `DATA.version`.
-- Display the author from `DATA.author`.
+- Display the application name, version, and author from `DATA`.
 - Keep metadata visually secondary to the active tool.
 
 ### 1.2 Navigation
@@ -32,21 +30,21 @@
 
 #### Modes
 
-- Provide Simple and Advanced modes.
-- Provide a control to switch between modes.
+- Simple and Advanced modes.
+- A control to switch between modes.
 - Preserve the current expression when switching modes whenever possible.
 
 #### Simple Mode
 
-- Provide a numeric input and controls for basic arithmetic.
+- Numeric input and controls for basic arithmetic.
 - Support addition, subtraction, multiplication, division, decimals, and parentheses.
-- Provide controls to evaluate and clear the expression.
+- Controls to evaluate and clear the expression.
 - Display the expression and result separately.
 
 #### Advanced Mode
 
 - Support exponentiation, square roots, percentages, and common mathematical functions.
-- Provide a clear way to enter functions and parentheses.
+- A clear way to enter functions and parentheses.
 - Display the expression and result separately.
 - Reject invalid expressions safely.
 
@@ -89,7 +87,7 @@
 
 ### 3.1 Appearance
 
-- Provide appearance-related settings without inventing unsupported operating-system integrations.
+- Provide appearance-related settings; do not invent unsupported operating-system integrations.
 
 ### 3.2 Style Selection
 
@@ -101,21 +99,21 @@
   - Midnight
   - Warm Paper
 - Identify the currently selected style.
-- Allow the user to preview a different style before applying it.
+- Allow previewing a different style before applying it.
 
 ### 3.3 Layout Density
 
-- Provide Compact and Comfortable options.
+- Compact and Comfortable options.
 - Apply the selected density consistently throughout the interface.
 - Allow density to be configured independently of the selected style.
 - Use the configured default density when no saved preference exists.
 
 ### 3.4 Settings Preview
 
-- Show a preview of pending style and density changes.
+- Preview pending style and density changes.
 - Update the preview immediately when pending values change.
 - Keep the active application appearance unchanged until Apply is selected, except within the preview area.
-- Provide a clear indication of which settings are pending.
+- Clearly indicate which settings are pending.
 
 ### 3.5 Apply Button
 
