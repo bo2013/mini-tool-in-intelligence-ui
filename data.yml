@@ -1,0 +1,9 @@
+DATA:
+  version: "0.0.1"
+  stage: in-development
+  name: Mini Tool Box
+  author: bo2013
+
+CONFIG:
+  default_style: Warm Paper
+  default_density: compact
